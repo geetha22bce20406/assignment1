@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <div class="relative w-full max-w-sm p-8 bg-white shadow-lg rounded-lg">
+      <button class="absolute top-2 right-2 text-gray-500 hover:text-black focus:outline-none">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="flex justify-center mb-4">
+        <img src="https://placehold.co/100x100" alt="Avatar of a person in a suit with a green circular background" class="rounded-full shadow-lg">
+      </div>
+      <form>
+        <div class="mb-4">
+          <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+          <input type="text" id="username" class="w-full px-3 py-2 mt-1 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500" placeholder="Enter Username">
+        </div>
+        <div class="mb-4">
+          <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+          <input type="password" id="password" class="w-full px-3 py-2 mt-1 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500" placeholder="Enter Password">
+        </div>
+        <div class="mb-4">
+          <button type="submit" class="w-full py-2 text-white bg-green-600 rounded hover:bg-green-700">Login</button>
+        </div>
+        <div class="flex items-center mb-4">
+          <input type="checkbox" id="remember" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring focus:ring-offset-0 focus:ring-blue-500">
+          <label for="remember" class="ml-2 text-sm text-gray-700">Remember me</label>
+        </div>
+        <div class="flex items-center justify-between">
+          <button type="button" class="px-4 py-2 text-white bg-red-600 rounded hover:bg-red-700">Cancel</button>
+          <a href="#" class="text-sm text-gray-500 hover:underline">Forgot password?</a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-arial">
+    <div class="flex justify-center mt-4">
+      <form class="border border-gray-500 p-4">
+        <h1 class="text-center text-xl text-blue-700 font-semibold">Registration form</h1>
+        <div class="grid grid-cols-2 gap-4 mt-6">
+          <div class="col-span-1 flex items-center">
+            <label for="firstname" class="w-full">First Name</label>
+          </div>
+          <div class="col-span-1">
+            <input type="text" id="firstname" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="lastname" class="w-full">Last Name</label>
+          </div>
+          <div class="col-span-1">
+            <input type="text" id="lastname" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="email" class="w-full">Email</label>
+          </div>
+          <div class="col-span-1">
+            <input type="email" id="email" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="password" class="w-full">Password</label>
+          </div>
+          <div class="col-span-1">
+            <input type="password" id="password" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="re-password" class="w-full">Re-enter Password</label>
+          </div>
+          <div class="col-span-1">
+            <input type="password" id="re-password" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label class="w-full">Gender:</label>
+          </div>
+          <div class="col-span-1">
+            <input type="radio" id="male" value="male" class="mr-1">
+            <label for="male" class="mr-4">Male</label>
+            <input type="radio" id="female" value="female" class="mr-1">
+            <label for="female">Female</label>
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="age" class="w-full">Age:</label>
+          </div>
+          <div class="col-span-1">
+            <input type="text" id="age" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="phone" class="w-full">Phone Number</label>
+          </div>
+          <div class="col-span-1">
+            <input type="text" id="phone" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="address" class="w-full">Address</label>
+          </div>
+          <div class="col-span-1">
+            <textarea id="address" class="border border-gray-500 w-full h-20"></textarea>
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label for="state" class="w-full">State</label>
+          </div>
+          <div class="col-span-1">
+            <input type="text" id="state" class="border border-gray-500 w-full">
+          </div>
+
+          <div class="col-span-1 flex items-center">
+            <label class="w-full">Country</label>
+          </div>
+          <div class="col-span-1">
+            <select class="border border-gray-500 w-full">
+              <option>Choose your country</option>
+              <option>India</option>
+              <option>Korea</option>
+              <option>USA</option>
+              <option>Sri lanka</option>
+            </select>
+          </div>
+
+          <div class="col-span-2">
+            <label class="block">Languages known</label>
+            <input type="checkbox" id="english" class="mr-1">
+            <label for="english" class="mr-4">English</label>
+            <input type="checkbox" id="kannada" class="mr-1">
+            <label for="kannada" class="mr-4">Kannada</label>
+            <input type="checkbox" id="hindi" class="mr-1">
+            <label for="hindi" class="mr-4">Hindi</label>
+            <input type="checkbox" id="telugu" class="mr-1">
+            <label for="telugu">Telugu</label>
+          </div>
+
+          <div class="col-span-2">
+            <input type="checkbox" id="declaration" class="mr-1" checked>
+            <label for="declaration">Hereby I declare all the given details are true</label>
+          </div>
+          <div class="col-span-2 flex justify-between items-center mt-4">
+            <button class="border border-gray-500 px-4 py-1">Register</button>
+            <a href="#" class="text-blue-600">Log
